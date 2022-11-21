@@ -1,11 +1,14 @@
 import React from 'react'
 import Typography from '@mui/material/Typography';
+import  Box  from '@mui/material/Box';
 
 function Footer() {
   return (
-    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+    <Box sx={{height: '30vh'}}>
+      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Ezgi Hocaoğlu
-    </Typography>
+      </Typography>
+    </Box>
   )
 }
 
