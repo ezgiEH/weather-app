@@ -16,10 +16,7 @@ function Form() {
     return (
         <>
             <form onSubmit={handleSubmit}>
-                <TextField
-                fullWidth
-                    label="City Name"
-                    variant="filled"
+                <input
                     type='text'
                     placeholder={cityName}
                     value={cityName}

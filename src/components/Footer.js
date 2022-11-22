@@ -5,8 +5,12 @@ import  Box  from '@mui/material/Box';
 function Footer() {
   return (
     <Box sx={{height: '30vh'}}>
-      <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-          Ezgi Hocaoğlu
+      <Typography sx={{ fontSize: 36 ,
+        textAlign: 'center',
+        marginTop: '10vh',
+        fontWeight: 'bold',
+        }} gutterBottom>
+          <a href='https://www.linkedin.com/in/ezgihocaoglu/'>Ezgi Hocaoğlu</a>
       </Typography>
     </Box>
   )
